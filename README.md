@@ -27,40 +27,57 @@ along with several bookmarks in the database after executing the migrations.
 
 To get the list of all bookmarks stored by *pesho* enter
 
-~~~~
+~~~~bash
 curl.exe -k https://localhost:8443/bookmark/my  -u pesho:1234
 ~~~~
 
 To all bookmarks of *pesho*, which contain the infix *okta* in their name
 
-~~~~
+~~~~bash
 curl.exe -w "\n" -k https://localhost:8443/bookmark/search?infix=okta -u pesho:1234
 ~~~~
 
 To add a bookmark it is necessary to key in 
 
-~~~~
+~~~~bash
 curl.exe -X POST -w "\n" -k https://localhost:8443/bookmark -u pesho:1234 -H "Content-Type: application/json" --data '{\"name\":\"Git\", \"url\":\"http://github.com\", \"description\":\"A lot of great projects\"}'
 ~~~~
 
 To modify a bookmark the API offers PUT method
 
-~~~~
+~~~~bash
 curl.exe -X PUT -w "\n" -k https://localhost:8443/bookmark/2 -u pesho:1234 -H "Content-Type: application/json" -d '{\"url\":\"https://github.com/andy489/Linux_Shell\"}'
 ~~~~
 
 To delete a bookmark use 
 
-~~~~
+~~~~bash
 curl.exe -X DELETE -w "\n" -k https://localhost:8443/bookmark/1 -u pesho:1234
 ~~~~
 
 To register userr
-~~~~
+~~~~bash
 curl.exe -X POST -w "\n" -k http://localhost:8080/user -H "Content-Type: application/json" -d'{\"username\" : \"newuser\",\"fullName\" : \"New User\",\"email\": \"new@gmail.com\",\"password\": \"1234\",\"confirmPassword\": \"1234\"}'
 ~~~~
 
 Other functionalities are exposed in the Postman exported collection.
+
+All endpoints
+```
+    GET     /bookmark/ (com.pros.bookmarks.resources.BookmarkResource)
+    POST    /bookmark/ (com.pros.bookmarks.resources.BookmarkResource)
+    GET     /bookmark/my (com.pros.bookmarks.resources.BookmarkResource)
+    GET     /bookmark/search (com.pros.bookmarks.resources.BookmarkResource)
+    DELETE  /bookmark/{id} (com.pros.bookmarks.resources.BookmarkResource)
+    PUT     /bookmark/{id} (com.pros.bookmarks.resources.BookmarkResource)
+    GET     /user/ (com.pros.bookmarks.resources.UserResource)
+    POST    /user/ (com.pros.bookmarks.resources.UserResource)
+    GET     /user/email (com.pros.bookmarks.resources.UserResource)
+    GET     /user/username/{username} (com.pros.bookmarks.resources.UserResource)
+    DELETE  /user/{id} (com.pros.bookmarks.resources.UserResource)
+    GET     /user/{id} (com.pros.bookmarks.resources.UserResource)
+    PUT     /user/{id} (com.pros.bookmarks.resources.UserResource)
+```
 
 Project src tree
 ```
