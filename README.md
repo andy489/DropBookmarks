@@ -8,7 +8,6 @@ should modify the driver and connection URL. By default it is necessary to creat
 DropBookmarks database and populate it using migrations. The liquibase settings are in the
 liquibase.properties file, they should also be changed if database is changed.
   
- 
 ## How to start the DropBookmarks application
 
 0. Check out project using `git clone https://github.com/andy489/DropBookmarks.git`
@@ -62,3 +61,71 @@ curl.exe -X POST -w "\n" -k http://localhost:8080/user -H "Content-Type: applica
 ~~~~
 
 Other functionalities are exposed in the Postman exported collection.
+
+Project src tree
+.
+├───src
+│   ├───main
+│   │   ├───java
+│   │   │   └───com
+│   │   │       └───pros
+│   │   │           └───bookmarks
+│   │   │               ├───auth
+│   │   │               ├───configuration
+│   │   │               ├───dao
+│   │   │               ├───model
+│   │   │               │   ├───dto
+│   │   │               │   ├───entity
+│   │   │               │   ├───mapper
+│   │   │               │   ├───validation
+│   │   │               │   └───view
+│   │   │               ├───resources
+│   │   │               └───service
+│   │   └───resources
+│   │       └───db.changelog
+│   └───test
+│       ├───java
+│       │   └───com
+│       │       └───pros
+│       │           └───bookmarks
+│       │               └───resources
+│       └───resources
+└───target
+    ├───classes
+    │   ├───com
+    │   │   └───pros
+    │   │       └───bookmarks
+    │   │           ├───auth
+    │   │           ├───configuration
+    │   │           ├───dao
+    │   │           ├───model
+    │   │           │   ├───dto
+    │   │           │   ├───entity
+    │   │           │   ├───mapper
+    │   │           │   ├───validation
+    │   │           │   └───view
+    │   │           ├───resources
+    │   │           └───service
+    │   └───db.changelog
+    ├───generated-sources
+    │   └───annotations
+    │       └───com
+    │           └───pros
+    │               └───bookmarks
+    │                   └───model
+    │                       └───mapper
+    ├───generated-test-sources
+    │   └───test-annotations
+    ├───maven-archiver
+    ├───maven-status
+    │   └───maven-compiler-plugin
+    │       ├───compile
+    │       │   └───default-compile
+    │       └───testCompile
+    │           └───default-testCompile
+    ├───surefire-reports
+    └───test-classes
+        └───com
+            └───pros
+                └───bookmarks
+                    └───resources
