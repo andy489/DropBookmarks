@@ -71,63 +71,49 @@ Project src tree
 │   │   │   └───com
 │   │   │       └───pros
 │   │   │           └───bookmarks
+│   │   │               │   DropBookmarksApplication.java
 │   │   │               ├───auth
+│   │   │               │       DBAuthenticator.java
 │   │   │               ├───configuration
+│   │   │               │       DropBookmarksConfiguration.java
 │   │   │               ├───dao
+│   │   │               │       BookmarkEntityDAO.java
+│   │   │               │       UserEntityDAO.java
 │   │   │               ├───model
 │   │   │               │   ├───dto
+│   │   │               │   │       BookmarkDto.java
+│   │   │               │   │       UserDto.java
 │   │   │               │   ├───entity
+│   │   │               │   │       BaseEntity.java
+│   │   │               │   │       BookmarkEntity.java
+│   │   │               │   │       UserEntity.java
 │   │   │               │   ├───mapper
+│   │   │               │   │       MapStructMapper.java
 │   │   │               │   ├───validation
+│   │   │               │   │       FieldMatch.java
+│   │   │               │   │       FieldMatchValidator.java
+│   │   │               │   │       UniqueEmail.java
+│   │   │               │   │       UniqueEmailValidator.java
+│   │   │               │   │       UniqueUsername.java
+│   │   │               │   │       UniqueUsernameValidator.java
 │   │   │               │   └───view
+│   │   │               │           BookmarkFullView.java
+│   │   │               │           BookmarkView.java
+│   │   │               │           UserView.java
 │   │   │               ├───resources
+│   │   │               │       BookmarkResource.java
+│   │   │               │       UserResource.java
 │   │   │               └───service
+│   │   │                       BookmarkService.java
+│   │   │                       UserService.java
 │   │   └───resources
+│   │       │   liquibase.properties
+│   │       │   local_properties.yml
+│   │       │   migrations.xml
 │   │       └───db.changelog
+│   │               change-log-1.0.xml
+│   │               change-log-1.1.xml
+│   │               change-log-1.2.xml
 │   └───test
-│       ├───java
-│       │   └───com
-│       │       └───pros
-│       │           └───bookmarks
-│       │               └───resources
-│       └───resources
 └───target
-    ├───classes
-    │   ├───com
-    │   │   └───pros
-    │   │       └───bookmarks
-    │   │           ├───auth
-    │   │           ├───configuration
-    │   │           ├───dao
-    │   │           ├───model
-    │   │           │   ├───dto
-    │   │           │   ├───entity
-    │   │           │   ├───mapper
-    │   │           │   ├───validation
-    │   │           │   └───view
-    │   │           ├───resources
-    │   │           └───service
-    │   └───db.changelog
-    ├───generated-sources
-    │   └───annotations
-    │       └───com
-    │           └───pros
-    │               └───bookmarks
-    │                   └───model
-    │                       └───mapper
-    ├───generated-test-sources
-    │   └───test-annotations
-    ├───maven-archiver
-    ├───maven-status
-    │   └───maven-compiler-plugin
-    │       ├───compile
-    │       │   └───default-compile
-    │       └───testCompile
-    │           └───default-testCompile
-    ├───surefire-reports
-    └───test-classes
-        └───com
-            └───pros
-                └───bookmarks
-                    └───resources
 ```
