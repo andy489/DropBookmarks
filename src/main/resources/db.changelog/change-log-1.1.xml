@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+
+    <changeSet id="3" author="astoev" context="DEV">
+        <insert tableName="users">
+            <column name="username" value="pesho"/>
+            <column name="full_name" value="Pesho Peshev"/>
+            <column name="email" value="pesho@gmail.com"/>
+            <column name="password" value="+mt48KOtQRiAT38yJmERY68e7qaD7Wv9"/>
+        </insert>
+        <insert tableName="users">
+            <column name="username" value="maria"/>
+            <column name="full_name" value="Maria Pirnareva"/>
+            <column name="email" value="maria@gmail.com"/>
+            <column name="password" value="J7kiei6iOJaEVGepXDwf7r6Z0vUmJOEa"/>
+        </insert>
+        <insert tableName="users">
+            <column name="username" value="gosho"/>
+            <column name="full_name" value="Gosho Goshev"/>
+            <column name="email" value="gosho@mail.fr"/>
+            <column name="password" value="cukUBL+MpTRrsQQ50IHBeR2XTbm8GrHR"/>
+        </insert>
+        <insert tableName="users">
+            <column name="username" value="andy"/>
+            <column name="full_name" value="Andrey Stoev"/>
+            <column name="email" value="andy@mail.co.uk"/>
+            <column name="password" value="HSpmUIhY85hwoVZoHL1qv7FzCXn/9M0e"/>
+        </insert>
+        <insert tableName="users">
+            <column name="username" value="foo"/>
+            <column name="full_name" value="Bar Baz"/>
+            <column name="email" value="qux@gmail.com"/>
+            <column name="password" value="Sl2MUAEb4s3iuPT4FyJq2qjs4AKoq64W"/>
+        </insert>
+    </changeSet>
+</databaseChangeLog>

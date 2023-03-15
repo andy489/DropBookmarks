@@ -1,0 +1,37 @@
+authPassword: 1234
+
+server:
+  applicationConnectors:
+    - type: http
+      port: 8080
+    - type: https
+      port: 8443
+      keyStorePath: dropbookmarks.keystore
+      keyStorePassword: 123456
+      validateCerts: false
+      validatePeers: false
+
+database:
+  driverClass: com.microsoft.sqlserver.jdbc.SQLServerDriver
+  url: jdbc:sqlserver://localhost:1433;databaseName=drop_bookmarks;encrypt=true;trustServerCertificate=true;createDatabaseIfNotExist=true;
+  user: ppss
+  password: ppss
+  properties:
+    charSet: UTF-8
+    hibernate.dialect: org.hibernate.dialect.SQLServerDialect
+#    hibernate.hbm2ddl.auto: update
+
+  # the maximum amount of time to wait on an empty pool before throwing an exception
+  maxWaitForConnection: 1s
+
+  # the SQL query to run when validating a connection's liveliness
+  validationQuery: "/* MyApplication Health Check */ SELECT 1"
+
+  # the minimum number of connections to keep open
+  minSize: 8
+
+  # the maximum number of connections to keep open
+  maxSize: 32
+
+  # whether idle connections should be validated
+  checkConnectionWhileIdle: false

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+
+    <changeSet id="4" author="astoev" context="DEV">
+        <insert tableName="bookmarks">
+            <column name="name" value="Artifactory"/>
+            <column name="url" value="https://artifactory.devops.pros.com/ui/packages"/>
+            <column name="description" value="PROS Artifactory"/>
+            <column name="owner_id" value="1"/>
+            <column name="create_time" value="2023-01-05T21:30:00"/>
+        </insert>
+        <insert tableName="bookmarks">
+            <column name="name" value="PPSS - projects"/>
+            <column name="url" value="https://stash.pros.com/projects/ppss"/>
+            <column name="description" value="PPSS projects from Bitbucket"/>
+            <column name="owner_id" value="1"/>
+            <column name="create_time" value="2023-01-09T22:30:16"/>
+        </insert>
+        <insert tableName="bookmarks">
+            <column name="name" value="Okta"/>
+            <column name="url" value="https://pros.okta.com/login/login.htm?fromURI=%2Fapp%2FUserHome"/>
+            <column name="description" value="PROS Single Sign-On"/>
+            <column name="owner_id" value="1"/>
+            <column name="create_time" value="2023-01-17T14:20:22"/>
+        </insert>
+
+        <insert tableName="bookmarks">
+            <column name="name" value="Chill out and Relax"/>
+            <column name="url" value="https://www.youtube.com/watch?v=pjxa_BEZOHU"/>
+            <column name="description" value="Youtube link with set of relaxing music"/>
+            <column name="owner_id" value="4"/>
+            <column name="create_time" value="2023-01-22T18:30:00"/>
+        </insert>
+        <insert tableName="bookmarks">
+            <column name="name" value="My github"/>
+            <column name="url" value="https://github.com/andy489"/>
+            <column name="description" value="My set of repositories and some projects that I have worked on"/>
+            <column name="owner_id" value="4"/>
+            <column name="create_time" value="2023-02-14T10:30:35"/>
+        </insert>
+
+        <insert tableName="bookmarks">
+            <column name="name" value="Math"/>
+            <column name="url" value="https://artofproblemsolving.com/"/>
+            <column name="description" value="Largest mathematical forum"/>
+            <column name="owner_id" value="2"/>
+            <column name="create_time" value="2023-03-12T12:30:07"/>
+        </insert>
+        <insert tableName="bookmarks">
+            <column name="name" value="My mail"/>
+            <column name="url" value="https://www.google.com/gmail/"/>
+            <column name="description" value="Google mail"/>
+            <column name="owner_id" value="2"/>
+            <column name="create_time" value="2023-03-14T12:30:15"/>
+        </insert>
+        <insert tableName="bookmarks">
+            <column name="name" value="MMA oktagon czech republic"/>
+            <column name="url" value="https://oktagonmma.cz/"/>
+            <column name="description" value="OKTAGON MMA is the largest Czech-Slovenian organization that organizes combat sports tournaments in us."/>
+            <column name="owner_id" value="1"/>
+            <column name="create_time" value="2023-02-14T11:30:11"/>
+        </insert>
+        <insert tableName="bookmarks">
+            <column name="name" value="Project Tutorial"/>
+            <column name="url" value="https://github.com/javaeeeee/DropBookmarks"/>
+            <column name="description" value="Repository for Udemy Project"/>
+            <column name="owner_id" value="5"/>
+            <column name="create_time" value="2022-08-14T14:52:48"/>
+        </insert>
+        <rollback>
+            <delete tableName="bookmarsk">
+                <where>
+                    id &lt; 1
+                </where>
+            </delete>
+        </rollback>
+    </changeSet>
+
+</databaseChangeLog>
