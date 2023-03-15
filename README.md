@@ -15,7 +15,8 @@ liquibase.properties file, they should also be changed if database is changed.
 1. Create a key store in the project's folder using Java 8 *keytool* 
 `keytool -genkeypair -keyalg RSA -dname "CN=localhost" -keystore dropbookmarks.keystore  -keypass 123456 -storepass 123456`
 2. Run `mvn clean package` to build the application. Database will be populated automatically.
-3. Run application with arguments `server .\src\main\resources\local_properties.yml`
+3. Run application with arguments `server .\src\main\resources\local_properties.yml`:
+ java -jar target/DropBookmarks-1.0-SNAPSHOT.jar server .\src\main\resources\local_properties.yml 
 5. To check that your application is running, enter URL `http://localhost:8081` in the browser 
 
 ## How to try the DropBookmarks application
@@ -52,6 +53,11 @@ To delete a bookmark use
 
 ~~~~
 curl.exe -X DELETE -w "\n" -k https://localhost:8443/bookmark/1 -u pesho:1234
+~~~~
+
+To register userr
+~~~~
+curl.exe -X POST -w "\n" -k http://localhost:8080/user -H "Content-Type: application/json" -d'{\"username\" : \"newuser\",\"fullName\" : \"New User\",\"email\": \"new@gmail.com\",\"password\": \"1234\",\"confirmPassword\": \"1234\"}'
 ~~~~
 
 Other functionalities are exposed in the Postman exported collection.
