@@ -54,4 +54,4 @@ To delete a bookmark use
 curl.exe -X DELETE -w "\n" -k https://localhost:8443/bookmark/1 -u pesho:1234
 ~~~~
 
-Other functionalities are exposed in the POSTMAN exported collection.
+Other functionalities are exposed in the Postman exported collection.
