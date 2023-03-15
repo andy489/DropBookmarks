@@ -63,6 +63,7 @@ curl.exe -X POST -w "\n" -k http://localhost:8080/user -H "Content-Type: applica
 Other functionalities are exposed in the Postman exported collection.
 
 Project src tree
+```
 .
 ├───src
 │   ├───main
@@ -129,3 +130,4 @@ Project src tree
             └───pros
                 └───bookmarks
                     └───resources
+```
