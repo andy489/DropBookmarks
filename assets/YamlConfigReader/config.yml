@@ -1,0 +1,37 @@
+myMetrics:
+  myArg: arg
+
+  myList:
+    - node1
+    - node2
+    - node3
+
+  myListOfLists:
+    -
+      - n1
+      - n2
+    -
+      - n3
+      - n4
+
+  myMap:
+    key1: bar
+    key2: baz
+    key3: qux
+
+  myMapOfLists:
+    list1:
+      - 1
+      - 1
+      - 2
+    list2:
+      - 3
+      - 5
+      - 8
+    list3:
+      - 13
+      - 21
+      - 34
+
+unused: unused
+

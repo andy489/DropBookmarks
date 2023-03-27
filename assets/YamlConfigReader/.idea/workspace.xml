@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cceb45ea-fff1-42a3-bce5-1b54f16a20d7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../Github/Battleships_Online" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Github/Battleships_Online" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Github/Data_Structures_and_Algorithms" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Github/Data_Structures_and_Algorithms" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Github/Empirical_Methods_and_Statistics" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Github/Empirical_Methods_and_Statistics" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Github/Fast_Algorithms_in_Data_Structures" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Github/Fast_Algorithms_in_Data_Structures" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Github/Linux_Shell" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Github/Linux_Shell" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Github/Modern_Java_Technologies" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Github/Modern_Java_Technologies" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2MsP5ClHcM999y6SIONaYtbBnk0" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;ignore.preview.features.used&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.45517242&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="JUnit.ExampleResourceTest">
+    <configuration name="YamlConfigReaderApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.YamlConfigReaderApplication" />
+      <module name="YamlConfigReader" />
+      <option name="PROGRAM_PARAMETERS" value="server config.yml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExampleResourceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="YamlConfigReader" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.resources.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.resources" />
+      <option name="MAIN_CLASS_NAME" value="org.example.resources.ExampleResourceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExampleResourceTest.testGetMyArg" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="YamlConfigReader" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.resources.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.resources" />
+      <option name="MAIN_CLASS_NAME" value="org.example.resources.ExampleResourceTest" />
+      <option name="METHOD_NAME" value="testGetMyArg" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExampleResourceTest.testGetMyList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="YamlConfigReader" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.resources.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.resources" />
+      <option name="MAIN_CLASS_NAME" value="org.example.resources.ExampleResourceTest" />
+      <option name="METHOD_NAME" value="testGetMyList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExampleResourceTest.testGetMyMKapOfLists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="YamlConfigReader" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.resources.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.resources" />
+      <option name="MAIN_CLASS_NAME" value="org.example.resources.ExampleResourceTest" />
+      <option name="METHOD_NAME" value="testGetMyMKapOfLists" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.YamlConfigReaderApplication" />
+      <item itemvalue="JUnit.ExampleResourceTest" />
+      <item itemvalue="JUnit.ExampleResourceTest.testGetMyArg" />
+      <item itemvalue="JUnit.ExampleResourceTest.testGetMyList" />
+      <item itemvalue="JUnit.ExampleResourceTest.testGetMyMKapOfLists" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ExampleResourceTest" />
+        <item itemvalue="Application.YamlConfigReaderApplication" />
+        <item itemvalue="JUnit.ExampleResourceTest.testGetMyMKapOfLists" />
+        <item itemvalue="JUnit.ExampleResourceTest.testGetMyList" />
+        <item itemvalue="JUnit.ExampleResourceTest.testGetMyArg" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cceb45ea-fff1-42a3-bce5-1b54f16a20d7" name="Changes" comment="" />
+      <created>1678553131280</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678553131280</updated>
+      <workItem from="1678553132421" duration="9249000" />
+      <workItem from="1678568616854" duration="271000" />
+      <workItem from="1678995005978" duration="659000" />
+      <workItem from="1678998728216" duration="1000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
